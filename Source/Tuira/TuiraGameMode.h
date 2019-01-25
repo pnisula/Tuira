@@ -13,6 +13,8 @@ class ATuiraGameMode : public AGameModeBase
 
 public:
 	ATuiraGameMode();
+	UFUNCTION(BlueprintCallable)
+	void KillPlayer();
 };
 
 
