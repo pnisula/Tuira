@@ -17,7 +17,3 @@ ATuiraGameMode::ATuiraGameMode()
 		DefaultPawnClass = PlayerPawnBPClass.Class;
 	}
 }
-void ATuiraGameMode::KillPlayer()
-{
-	UE_LOG(LogTemp, Warning, TEXT("Player Killed"));
-}
