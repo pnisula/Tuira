@@ -12,9 +12,7 @@ class ATuiraGameMode : public AGameModeBase
 	GENERATED_BODY()
 
 public:
-	ATuiraGameMode();
-	UFUNCTION(BlueprintCallable)
-	void KillPlayer();
+	ATuiraGameMode();	
 };
 
 
